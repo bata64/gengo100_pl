@@ -17,7 +17,7 @@ my $str1 = 'Hi He Lied Because Boron Could Not Oxidize Fluorine. New Nations Mig
 my $num = 1;
 my %hash;
 
-my @array1 =split(/ |, |\. |\./, $str1);
+my @array1 = split(/ |, |\. |\./, $str1);
 foreach my $txt ( @array1 ){
     if ( $num =~ /^(1|5|6|7|8|9|15|16|19)$/){
         $hash{$num} = substr($txt, 0, 1);

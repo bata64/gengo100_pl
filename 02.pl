@@ -16,8 +16,8 @@ use Data::Dumper;
 my $str1 = 'パトカー';
 my $str2 = 'タクシー';
 
-my @array1 =split(//, $str1);
-my @array2 =split(//, $str2);
+my @array1 = split(//, $str1);
+my @array2 = split(//, $str2);
 
 my @z = mesh @array1, @array2;
 
